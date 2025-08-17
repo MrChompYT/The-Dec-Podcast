@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – The DEC Podcast</title>
+  <link rel="stylesheet" href="site-style.css" />
+</head>
+<body>
+  <header>
+    <h1>The DEC Podcast</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="episodes.html">Episodes</a></li>
+        <li><a href="guests.html">Guests</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <section class="hero contact-hero">
+    <h2>Reach Out Anytime</h2>
+    <p>If you ever need help, advice, or just someone to listen, we’re here for you.</p>
+  </section>
+
+  <section class="contact-wrapper">
+    <div class="contact-info">
+      <h3>Ways to Connect</h3>
+      <p><strong>Email:</strong> thedecpod@gmail.com</p>
+      <p><strong>Follow Us:</strong>  
+        <a href="#">YouTube</a> · 
+        <a href="https://open.spotify.com/show/6eFUB3cV5sYzzBDvuYusKn?si=7c607b8b867f46af">Spotify</a>
+      </p>
+      <p>We read every message and do our best to respond within 2–3 days.</p>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/mblkeorr" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="you@example.com" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+</main>
+
+
+
+  <footer>
+    <p>&copy; 2025 The DEC Podcast. All rights reserved.</p>
+  </footer>
+</body>
+</html>
